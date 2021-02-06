@@ -1,0 +1,11 @@
+{% if include.style == "Map widget js" %}
+<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=UB7v16K9JvSlhThcHuCwKXkjP0lO-tu6dVaEcyW-S_Q&cl=ffffff&w=a"></script>
+{% elsif include.style == "hiddenpng" %}
+<div hidden class="analytics" aria-hidden="true">
+	 <img src="//www.clustrmaps.com/map_v2.png?d={{ site.author.clustrmap }}&cl=ffffff" />
+</div>
+{% elsif include.style == "Globe Widget" %}
+<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=UB7v16K9JvSlhThcHuCwKXkjP0lO-tu6dVaEcyW-S_Q"></script>
+{% else %}
+	 <a href="https://clustrmaps.com/site/1bak1"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=UB7v16K9JvSlhThcHuCwKXkjP0lO-tu6dVaEcyW-S_Q&cl=ffffff" /></a>
+{% endif %}
