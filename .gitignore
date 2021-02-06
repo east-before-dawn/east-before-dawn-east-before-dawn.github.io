@@ -5,4 +5,4 @@ node_modules
 .jekyll-cache
 
 # post
-_posts
+#_posts
