@@ -11,3 +11,5 @@ source "https://mirrors.tuna.tsinghua.edu.cn/rubygems"
 
 # github-pages
 gem "github-pages", group: :jekyll_plugins
+# jekyll 管理界面
+gem 'jekyll-admin', group: :jekyll_plugins

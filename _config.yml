@@ -66,8 +66,8 @@ defaults:
     values:
       toc: true
       mathjax: true
-      mermaid: false
-      highlight: false
+      mermaid: true
+      highlight: true
       numbering: true
       status: Completed
       protected: false
